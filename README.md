@@ -1,9 +1,4 @@
 # IsitLit
 HackNC 2016
-Currently, we need to quantify the number of tweets coming from a number of GPS coordinates that correspond to bars in CHapel Hill, NC. 
 
-Established:
-Twitter API account (info in Google doc)
-
-TODO:
-everything
+This program looks at the top 10 attractions in Chapel Hill, NC ranked by the number of tweets coming from the latitude and longitude coordinates of the attraction. The analysis spans over the period of a week, showing the user what the most popular bars are on a week-by-week basis.
