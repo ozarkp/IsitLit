@@ -1,8 +1,8 @@
 import csv
 
-headers = {'Bar' : ['Latitude', 'Longitude']}
+headers = {'Attraction' : ['Latitude', 'Longitude', 'tweets']}
 
-bars = {'Gotham': [35.911586877551, -79.0596412244898, 0], 
+attractions = {'Gotham': [35.911586877551, -79.0596412244898, 0], 
         'Townhall Grill': [35.91120765, -79.0596764795248, 1], 
         'Caffe Driade': [35.9257446, -79.0379503931717, 0], 
         'The Library': [35.913721, -79.055659, 9], 
@@ -33,7 +33,7 @@ with open('hotspots.csv', 'w', newline='') as f:
     for key, value in headers.items():
         c.writerow([key] + value)
         
-    for key, value in bars.items():
+    for key, value in attractions.items():
         c.writerow([key] + value)
     
 
